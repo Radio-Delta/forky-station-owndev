@@ -18,7 +18,7 @@ public sealed partial class LimitedChargesComponent : Component
     ///     The max charges this action has.
     /// </summary>
     [DataField, AutoNetworkedField]
-    public int MaxCharges = 6;
+    public int MaxCharges = 6; // funky changed charges 3 -> 6
 
     /// <summary>
     /// Last time charges was changed. Used to derive current charges.
