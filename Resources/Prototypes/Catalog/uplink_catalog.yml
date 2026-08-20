@@ -148,7 +148,7 @@
   discountDownTo:
     Telecrystal: 9 # Funky Change 2 -> 9. Changed to match new base price.
   cost:
-    Telecrystal: 18 # Funky Change 4 -> 18. Fixed price for new budget. Also slight buff, not really better than a viper (14tc) outside of assassinating specific armored targets. Decided to make the same price as Cobra.
+    Telecrystal: 17 # Funky Change 4 -> 17. Fixed price for new budget. Also slight buff, not really better than a viper (14tc) outside of assassinating specific armored targets. Decided to make the same price as Cobra.
   categories:
   - UplinkWeaponry
 
@@ -162,7 +162,7 @@
   discountDownTo:
     Telecrystal: 10
   cost:
-    Telecrystal: 18
+    Telecrystal: 20 # Funky Change 18 -> 20. Decided to raise price slightly to account for the fact that its ammo is now down to 5TC.
   categories:
   - UplinkWeaponry
 
@@ -309,7 +309,7 @@
   discountDownTo:
     Telecrystal: 20 # Funky Change 30 -> 20. To match the new standard price of 40 TC.
   cost:
-    Telecrystal: 40 # Funky Change 50 -> 40. Buff. The Hushpup is pretty weak in my experience. Lower price to match the Esword should make it a bit more viable.
+    Telecrystal: 40 # Funky Change 50 -> 40. Buff. The item doesn't come with any ammo, meaning that syndies will need to buy more or find more to reload it.
   categories:
   - UplinkWeaponry
 
@@ -434,7 +434,7 @@
   discountDownTo:
     Telecrystal: 70
   cost:
-    Telecrystal: 85
+    Telecrystal: 95 # Funky Change 85 -> 95. This one comes with more ammo for nukies, so it should be more expensive than traitor lake.
   categories:
   - UplinkWeaponry
   conditions:
@@ -538,7 +538,7 @@
   productEntity: C4
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 2 # Funky Change. To match new base price.
+    Telecrystal: 2 # Funky Change 15 -> 2. To match new base price.
   cost:
     Telecrystal: 8 # Funky Change 25 -> 8. Buff? I don't know why this was set as 25 TC. Made 8 TC for parity with old funky.
   categories:
@@ -680,7 +680,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: red-icon }
   productEntity: MagazinePistolSubMachineGun
   cost:
-    Telecrystal: 7
+    Telecrystal: 5 # Funky Change 7 -> 5. Changed to make several ammo items have more simple and rounder pricing. (mostly 5s and 10s)
   categories:
   - UplinkAmmo
 
@@ -715,7 +715,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi, state: red-icon }
   productEntity: MagazinePistolCaselessRifle
   cost:
-    Telecrystal: 6
+    Telecrystal: 5 # Funky Change 6 -> 5. Changed to make several ammo items have more simple and rounder pricing. (mostly 5s and 10s)
   categories:
   - UplinkAmmo
 
@@ -739,7 +739,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
   productEntity: SpeedLoaderMagnumAP
   cost:
-    Telecrystal: 8 # Funky Change 3 -> 8. Fixed for new budget.
+    Telecrystal: 10 # Funky Change 3 -> 10. Fixed for new budget. Changed to make several ammo items have more simple and rounder pricing. (mostly 5s and 10s)
   categories:
   - UplinkAmmo
 
@@ -750,7 +750,7 @@
   description: uplink-mosin-ammo-desc
   productEntity: MagazineBoxLightRifle
   cost:
-    Telecrystal: 8 # Funky Change 1 -> 8. Budget Fix. Changed to match the .60 AMR ammo box price -2. shouldn't be too expensive for when mosin is added to uplink, but should be pricy enough to limit L6 SAW ammo.
+    Telecrystal: 5 # Funky Change 1 -> 5. Budget Fix. Changed to make several ammo item have more simple and rounder pricing. (mostly 5s and 10s)
   categories:
   - UplinkAmmo
 
@@ -881,7 +881,7 @@
   productEntity: CombatMedipen
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 6 # Funky Change. To match the item's new base price.
+    Telecrystal: 6 # Funky Change 10 -> 6. To match the item's new base price.
   cost:
     Telecrystal: 12 # Funky Change 20 -> 12. Buff. Always thought this item was really weak in the grand scheme of things, definetly not better than a combat medkit at least. It's more powerful now that omnizene is good, but it's still only a single-use one-time heal, compared to the medkit which can last longer.
   categories:
@@ -894,7 +894,7 @@
   productEntity: Stimpack
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 5 # Funky Change. To match the new base price.
+    Telecrystal: 5 # Funky Change 15 -> 5. To match the new base price.
   cost:
     Telecrystal: 15 # Funky Change 25 -> 15. Buff. Stunmeta is dead on funky, so the "recover from stuns faster" utility is less prevelant. 25 TC just felt too expensive and like people would rarely ever buy the item.
   categories:
@@ -907,9 +907,9 @@
   productEntity: StimkitFilled
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 15 # Funky Change. To match the new base price.
+    Telecrystal: 18 # Funky Change 20 -> 18. To match the new base price.
   cost:
-    Telecrystal: 30 # Funky Change. Buff. Changed to match the injector, except you get 33% better value (3 minutes of total hyperzine, versus the 2 minutes you would get with buying two normal injectors)
+    Telecrystal: 35 # Funky Change. Buff. Changed to be closer to the new injector price, but with a bulk-buy discount.
   categories:
   - UplinkChemicals
 
@@ -919,7 +919,7 @@
   description: uplink-cigarettes-desc
   productEntity: CigPackSyndicate
   cost:
-    Telecrystal: 5 # Funky Change. Buff. You can't grind cigs anymore, so you have to smoke these for the actual benefit, which can be hard to do and slow.
+    Telecrystal: 5 # Funky Change 20 -> 5. Buff. You can't grind cigs anymore, so you have to smoke these for the actual benefit, which can be hard to do and slow.
   categories:
   - UplinkChemicals
 
@@ -963,7 +963,7 @@
   productEntity: AgentIDCard
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 9 # Funky Change. To match the new base price.
+    Telecrystal: 9 # Funky Change 15 -> 9. To match the new base price.
   cost:
     Telecrystal: 15 # Funky Change 30 -> 15. Buff. This item does not feel like it's worth the same price as an access breaker or emag. Changed to 15 TC for parity with old funky.
   categories:
@@ -1047,7 +1047,7 @@
   productEntity: BriefcaseSyndieLobbyingBundleFilled
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 15 # Funky, Changed to match new base price.
+    Telecrystal: 15 # Funky 20 -> 15, Changed to match new base price.
   cost:
     Telecrystal: 25 # Funky Change 30 -> 25. Bribing people is fun! Made it slightly cheaper to allow this more.
   categories:
@@ -1135,7 +1135,7 @@
   productEntity: RadioJammer
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 5 # Funky Change. So the discount matches the item's new base price.
+    Telecrystal: 5 # Funky Change 15 -> 5. So the discount matches the item's new base price.
   cost:
     Telecrystal: 10 # Funky Change 25 -> 10. Buff. Never found this item very useful. If you're kidnapping a target, just take their headset off and turn off their coords, it's free.
   categories:
@@ -1239,7 +1239,7 @@
   description: uplink-travel-camera-desc
   productEntity: TravelCamera
   cost:
-    Telecrystal: 10 # Funky Change 1 -> 10. Price Fix. It's a reusable disguised flash which supposedly exists in funky (as a lantern rather than camera) but I've never seen it used. Price kept at 10 TC to match the lantern.
+    Telecrystal: 10 # Funky Change 1 -> 10. Price Fix. It's a reusable disguised flash which existed in old funky (as a lantern rather than camera) but I've never seen it used. Price kept at 10 TC to match the lantern.
   categories:
   - UplinkDeception
 
@@ -1798,9 +1798,9 @@
   productEntity: ClothingOuterVestWeb
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 15
+    Telecrystal: 10 # Funky Change 15 -> 10. Changed to match new base price.
   cost:
-    Telecrystal: 20
+    Telecrystal: 15 # Funky Change 20 -> 15. Buff. Changed for parity with old funky, plus the fact that sec uses mostly heat damage weapons now means this item is going to be quite weak.
   categories:
   - UplinkWearables
 
@@ -1811,9 +1811,9 @@
   productEntity: ClothingOuterVestWebElite
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 25
+    Telecrystal: 20 # Funky Change 25 -> 20. Changed to match new base price.
   cost:
-    Telecrystal: 30
+    Telecrystal: 25 # Funky Change 30 -> 25. Buff. Changed for parity with old funky.
   categories:
   - UplinkWearables
 
